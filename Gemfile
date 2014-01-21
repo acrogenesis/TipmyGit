@@ -5,6 +5,17 @@ gem 'rails', '4.0.2'
 
 # Use postgress as the database for Active Record
 gem 'pg'
+
+#test
+gem "rspec-rails", :group => [:test, :development]
+group :test do
+  gem "factory_girl_rails"
+  gem "capybara"
+  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+  gem "guard-rspec"
+  gem 'guard-livereload'
+end
+
 #omniauth
 gem 'omniauth-github'
 
