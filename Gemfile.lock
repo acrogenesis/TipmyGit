@@ -61,6 +61,8 @@ GEM
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.3)
+    font-awesome-sass (4.0.2)
+      sass-rails (>= 3.1.1)
     formatador (0.2.4)
     guard (2.3.0)
       formatador (>= 0.2.4)
@@ -215,6 +217,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.0.0)
   factory_girl_rails
+  font-awesome-sass (~> 4.0)
   guard-livereload
   guard-rspec
   jbuilder (~> 1.2)
