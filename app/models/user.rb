@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
       user.name = auth["info"]["name"]
       user.nickname = auth["info"]["nickname"]
       user.email = auth["info"]["email"]
-      user.avatar_url = auth["info"]["image"]
+      user.gravatar_id = auth["info"]["gravatar_id"]
       user.public_repos = auth["info"]["repos_url"]
     end
   end
