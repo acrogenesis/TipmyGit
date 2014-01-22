@@ -46,6 +46,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    database_cleaner (1.2.0)
     diff-lcs (1.2.5)
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
@@ -216,6 +217,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.0)
   capybara
   coffee-rails (~> 4.0.0)
+  database_cleaner
   factory_girl_rails
   font-awesome-sass (~> 4.0)
   guard-livereload
