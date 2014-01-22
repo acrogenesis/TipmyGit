@@ -14,12 +14,19 @@ gem 'pg'
 #test
 gem "rspec-rails", :group => [:test, :development]
 group :test do
-  gem "factory_girl_rails"
-  gem "capybara"
+  gem 'factory_girl_rails'
+  gem 'capybara'
   gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
-  gem "guard-rspec"
+  gem 'guard-rspec'
   gem 'guard-livereload'
 end
+
+#Bootstrap 3
+group :development, :test do
+  gem 'rails_layout'
+end
+
+gem 'bootstrap-sass', '~>3.0'
 
 #omniauth
 gem 'omniauth-github'
