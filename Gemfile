@@ -22,6 +22,10 @@ group :test do
   gem 'database_cleaner'
 end
 
+group :dvelopment do
+  gem 'better_errors'
+end
+
 #Bootstrap 3
 group :development, :test do
   gem 'rails_layout'
