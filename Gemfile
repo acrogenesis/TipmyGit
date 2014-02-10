@@ -26,7 +26,7 @@ end
 group :development, :test do
   gem 'rails_layout'
 end
-gem 'bootstrap-sass', '~>3.0'
+gem 'bootstrap-sass', '~>3.1.0'
 
 # font-awesome
 gem 'font-awesome-sass', '~>4.0'
